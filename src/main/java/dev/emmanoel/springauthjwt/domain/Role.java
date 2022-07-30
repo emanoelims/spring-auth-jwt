@@ -26,6 +26,10 @@ public class Role {
     private Long id;
     private String name;
 
+    public Role(final String name) {
+        this.name = name;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
